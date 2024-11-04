@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CartaDaGioco
+comment0.text=\n\ Classe\ di\ una\ carta\ da\ gioco\n\ \n\ @author\ Greta\ Maria\ Brugnatti\ \n\ @version\ 03/11/2024\ \n
+comment1.params=v\ s\ c
+comment1.target=CartaDaGioco(char,\ char,\ char)
+comment1.text=\n\ Costruttore\ dell'oggetto\ Carta\ Da\ Gioco\n\ \n\ @param\ v\ \ \ \ \ \ \ \ Valore\ della\ carte,\ valori\ validi\ -->\ {1,2,3,4,5,6,7,8,9,J,Q,K}\n\ @param\ s\ \ \ \ \ \ \ \ Seme\ della\ carta\ -->\ q,p,c,f\n\ @param\ c\ \ \ \ \ \ \ \ Colore\ del\ dorso\ della\ carta\ -->\ b(blu),\ r(rosso),\ g(giallo),\ v(verde)\n\ \n
+comment2.params=stringaCarta
+comment2.target=CartaDaGioco(java.lang.String)
+comment2.text=\n\ Costruttore\ dell'oggetto\ Carta\ Da\ Gioco\ data\ la\ sigla\ della\ carta\n\ \n\ @param\ stringaCarta\ \ \ Stringa\ della\ carta\ con\ indicazioni\ indicate\ in\ questo\ modo\ \:\ valoreSemeColore\n\ \n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Scrive\ in\ una\ stringa\ le\ informazioni\ della\ carta\ da\ gioco\n\ \n\ @return\ \ \ \ \ Ritorna\ la\ stringa\ con\ le\ informazioni\n\ \n
+comment4.params=
+comment4.target=char\ getValore()
+comment4.text=\n\ Prende\ il\ valore\ dell'oggetto\n\ @return\ Valore\ dell'oggetto\n
+comment5.params=
+comment5.target=char\ getSeme()
+comment5.text=\n\ Prende\ il\ seme\ dell'oggetto\n\ @return\ Seme\ dell'oggetto\n
+comment6.params=
+comment6.target=char\ getColoreDorso()
+comment6.text=\n\ Prende\ il\ colore\ del\ dorso\ dell'oggetto\n\ @return\ Colore\ del\ dorso\ dell'oggetto\n
+comment7.params=carta
+comment7.target=void\ confronta(CartaDaGioco)
+comment7.text=\n\ Confronta\ con\ un'altra\ carta\n\ @param\ carta\ Altro\ oggetto\ da\ confrontare\ con\ l'oggetto\ attuale\n
+numComments=8
